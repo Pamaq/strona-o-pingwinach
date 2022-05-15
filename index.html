@@ -13,28 +13,60 @@
 </head>
 <body>
     <div class="content">
-    <h1><b>Penguin lovers association</b></h1>
+
+        <h1><b>Penguin Lovers Association</b></h1>
         <hr>
-    <h2>Welcome to our page! <img src="D:\paula\it\vsc\strona_o_pingwinach\icon.png" alt="Small penguin" height="30" width="30"></h2>
-        <p>Are you a fan of penguins? If your answer is yes than you've come to the right place! This is a safe space for everyone who loves those amazing animals.</p>
-        <img src="D:\paula\it\vsc\strona_o_pingwinach\pingwin-cesarski.jpg" alt="Emperor penguin" width="210" height="310" frameBorder="15">
-        <iframe src="https://giphy.com/embed/jxETRYAi2KReel7pqy" width="480" height="310" frameBorder="15" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/jxETRYAi2KReel7pqy">via GIPHY</a></p>
+        <nav>
+            <ul>
+                <li><a href="#introduction">Welcome!</a></li>
+                <li><a href="#content">Content</a></li>
+                <li><a href="#feedback">Let us know what do you think!</a></li>
+            </ul>
         <hr>
-    <h3>What can you find here?</h3>
+
+        <section id="introduction">
+
+        <h2>Welcome to our page! <img src="D:\paula\it\vsc\strona_o_pingwinach\icon.png" alt="Small penguin" height="30" width="30"></h2>
+        <p>Are you a fan of <a href="https://simple.wikipedia.org/wiki/Penguin">penguins</a>? If your answer is yes than you've come to the right place! This is a safe space for everyone who loves those amazing animals.</p>
+        <img src="D:\paula\it\vsc\strona_o_pingwinach\pingwin-cesarski.jpg" alt="Emperor penguin" width="210" height="310" frameBorder="15" class="center">
+        
+        </section>
+
+        <hr>
+
+        <section id="content">
+
+        <h3>What can you find here?</h3>
         <p>This page allows you to:</p>
         <ul>
         <li>Learn more about your favourite birds!</br>
         <li>Find beautiful, high quality photographs of different kinds of penguins.</li>
         <li>Take a look at GIFs and memes if you came here for a laugh 😄.</li>
-        <li>Tell us what else would you like to see on our page *feedback*</li>
+        <li>Tell us what else would you like to see on our page <a href="#feedback">feedback</a></li>
         </li>
         </ul>
-    <h4>Feedback</h4>
-    <form action="URL to form script" method="POST">
-        Your name:<br><input type="text" name="realname"><br>
-        Your email:<br><input type="text" name="email"><br>
-        Your comments:<br><textarea name="comments" rows="15" cols="50"></textarea>
-    </form>
+        <iframe src="https://giphy.com/embed/jxETRYAi2KReel7pqy" width="480" height="310"  class="giphy-embed" class="center" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/jxETRYAi2KReel7pqy">via GIPHY</a></p>
+        
+        </section>
+
+        <section id="feedback">
+        <h4>Feedback</h4>
+        <form action="URL to form script" method="POST">
+        Your name:<br>
+        <input type="text" name="realname"><br>
+        <br>
+        Your email:<br>
+        <input type="text" name="email"><br>
+        <br>
+        Your comments:<br>
+        <textarea name="comments" rows="15" cols="50"></textarea><br><br>
+        <input type="submit" value="Submit">
+        </form>
+
+        </section>
+        <p>
+            <a href="#">Back to top</a>
+        </p>
     </div>
 </body>
 </html>
