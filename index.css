@@ -9,7 +9,7 @@ body
     }
 .content 
     {
-        max-width: 500px;
+        max-width: 800px;
         margin: auto;
     }
 .center
@@ -18,3 +18,15 @@ body
     margin-left: auto;
     margin-right: auto;
     }
+a
+    {
+    color: aliceblue;
+    }
+a:visited
+    {
+    color: lightgray;
+    }
+a:hover, a:active 
+{
+    color: #eee;
+}
